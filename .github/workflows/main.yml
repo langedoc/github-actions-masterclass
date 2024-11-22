@@ -7,6 +7,5 @@ jobs:
   name: test
     runs-on: macos-latest
     steps:
-      - run: |
-        git clone git@github.com:langedoc/github-actions-masterclass.git
-        ls -la
+      - uses: actions/checkout@v4
+      - run: ls
