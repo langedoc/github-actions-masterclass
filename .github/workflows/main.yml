@@ -8,6 +8,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: |
-          echo "Helo, world!"
-          pwd
-          ls -al
+        git clone git@github.com:langedoc/github-actions-masterclass.git
+        ls -la
